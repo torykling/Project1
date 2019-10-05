@@ -1,0 +1,408 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+/* nav styles */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5%;
+  margin-top: 3%;
+  margin-bottom: 3.5%;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-right: 50px;
+  padding-top: 7px;
+}
+a.navbar {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  margin-right: 30px;
+  color: rgb(68,74,81);
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 0px solid #D9D9D9;
+  transition: all 300ms ease;
+  font-size: 1rem;
+}
+a.navbar:hover {
+  border-bottom: 2px solid #D9D9D9;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+}
+/* headphones image hero */
+.holdingHeadphones {
+  background-image: url("img/holdingHeadphones.jpg");
+  background-size: cover;
+  width: 95%;
+  height: 550px;
+  margin-left: 5%;
+}
+/* band of white text in the first third */
+.topText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 3rem;
+}
+h1 {
+  font-size: 2.5rem;
+  color: rgb(35,43,53);
+  margin: 4rem 2rem 3rem 0;
+}
+.left h4 {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: rgb(35,43,53);
+}
+.left h6 {
+  color: rgb(149, 153, 159);
+  font-size: .9rem;
+  margin-bottom: .4rem;
+}
+.left {
+  padding: 0 5% 1% 0;
+  margin-right: 5rem;
+}
+.and {
+  font-family: 'Bitter', serif;
+  color: pink;
+  font-size: 1.66rem;
+}
+.column1 {
+  width: 25%;
+  margin: 4rem 2.2rem 5rem 1rem;
+}
+.column1 p {
+  text-align: justify;
+  margin-bottom: 1rem;
+  color: rgb(149, 153, 159);
+}
+.column2 {
+  width: 25%;
+  margin-top: 4rem;
+}
+.column2 p {
+  text-align: justify;
+  margin-bottom: 1rem;
+  color: rgb(149, 153, 159);
+}
+/* band of site including speaker image */
+.speakerBand {
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 7rem;
+  padding-top: 7rem;
+}
+.middleTextLeft {
+  width: 40%;
+  margin: 1% 9% 1% 5%;
+}
+.speakerBand p {
+  line-height: 1.5rem;
+  color: #88898C;
+  font-size: 1rem;
+}
+.speakerBand h3 {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  line-height: 2rem;
+  color: rgb(35,43,53);
+}
+.bioPortrait {
+  background-image: url("img/circlePortrait.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+
+}
+.speaker {
+  background-image: url("img/roundSpeaker.jpg");
+  background-size: cover;
+  margin-top: 2rem;
+  width: 50%;
+  height: 450px;
+}
+/* band of site that includes the sidebar */
+.sideBand {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #F2F2F2;
+  padding-bottom: 10rem;
+}
+.sideMain {
+  width: 25%;
+  padding-top: 20rem;
+}
+.sideMain h3 {
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+  color: rgb(35,43,53);
+}
+.sideMain p {
+  font-size: 1.1rem;
+  color: #88898C;
+  line-height: 1.5;
+}
+.sidebar {
+  border-left: 1px solid #BDBEBF;
+  width: 30%;
+  padding-left: 3rem;
+  margin-left: 3rem;
+}
+.sidebar h6 {
+  font-size: 1.1rem;
+  color: #88898C;
+}
+.sidebar h4 {
+  font-size: 1.4rem;
+  color: rgb(35,43,53);
+  margin-bottom: .4rem;
+}
+#appUsed {
+  margin-bottom: 2rem;
+}
+.app {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  margin-right: 4rem;
+}
+button {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  flex-shrink: 0;
+  margin-left: 4rem;
+  color: pink;
+  border: .5px solid #BDBEBF;
+  background-color: inherit;
+  transition: all 300ms ease;
+}
+button:hover {
+  background-color: #88898C;
+}
+.dudeWithHeadphones {
+  background-image: url("img/dudeWearingHeadphones2.jpeg");
+  background-size: cover;
+  width: 30%;
+  height: 450px;
+  min-width: 300px;
+}
+/* phones on fur image */
+.phonesOnFur {
+  background-image: url("img/headphonesClose2.jpeg");
+  background-size: cover;
+  width: 95%;
+  height: 700px;
+  margin-left: 5%;
+}
+/* bottom text band with question */
+.bottomMain {
+  display: flex;
+  flex-direction: row;
+  padding: 150px 0 200px 0;
+  margin-left: 5%;
+}
+
+.question h3 {
+  font-size: 1.5rem;
+  color: rgb(35,43,53);
+  width: 35rem;
+  line-height: 1.5;
+  margin-right: 8rem;
+}
+.answer p {
+  font-size: 1.1rem;
+  color: #88898C;
+  width: 35rem;
+  line-height: 1.5;
+}
+/* footer */
+footer {
+  display: flex;
+  flex-direction: row;
+  /* height: 400px; */
+  align-items: flex-end;
+}
+.footerText {
+  color: #F2F2F2;
+  background-color: rgb(35,43,53);
+  height: 400px;
+  width: 70%;
+  padding: 10% 5% 15% 5%;
+}
+.footerText h6 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+.footerText h3 a {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  text-decoration: none;
+  color: #F2F2F2;
+  transition: all 300ms ease;
+}
+.footerText h3 a:hover {
+  border-bottom: 4px solid lightgrey;
+}
+.pinkPortrait {
+  background-image: url("img/purplePortrait.jpg");
+  background-size: cover;
+  min-width: 500px;
+  height: 520px;
+
+}
+/* media query section for responsive- phone size */
+@media screen and (max-width: 600px) {
+  * {
+    font-size: 13px;
+  }
+  .holdingHeadphones {
+    height: 225px;
+    width: 100%;
+    margin-left: 0;
+  }
+  .topText {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .left {
+    margin-left: 5%;
+  }
+  .column1, .column2 {
+    width: 90%;
+    margin: 0 5% 3% 5%;
+    padding-bottom: 0;
+  }
+  .speakerBand {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-bottom: 2rem;
+  }
+  .speaker {
+    width: 100%;
+    height: 273px;
+    margin-bottom: 3rem;
+    margin-top: 0;
+  }
+  .middleTextLeft {
+    width: 91%;
+    margin-left: 5%;
+    margin-right: 4%
+  }
+  .sideBand {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  .dudeWithHeadphones {
+    width:100%;
+  }
+  .sideMain {
+    padding-top: 3rem;
+    width: 93%;
+    margin-left: 5%;
+    margin-right: 2%
+  }
+  .sidebar {
+    border-top: .8px solid #88898C;
+    border-left: none;
+    margin: 3rem 5% 0 5%;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-top: 2rem;
+    width: 90%;
+  }
+  .phonesOnFur {
+    width: 100%;
+    margin: 0 auto;
+    height: 217px;
+  }
+  .bottomMain {
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 3rem;
+  }
+  .question h3, .answer p {
+    width: 92%;
+    margin: 8% 3% 0 5%;
+    padding: 0
+  }
+  .footerText {
+    width: 100%;
+    height: 300px;
+  }
+  .pinkPortrait {
+    display: none;
+  }
+}
+
+
+/* tablet size */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  * {
+    font-size: 13px;
+  }
+  .holdingHeadphones {
+    height: 419px;
+  }
+  .bottomMain {
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 5rem;
+  }
+  .question h3, .answer p {
+    width: 92%;
+    margin: 8% 3% 0 5%;
+    padding: 0
+  }
+  .dudeWithHeadphones {
+    display: none;
+  }
+  .speaker {
+    background-image: url("img/dudeWearingHeadphones2.jpeg");
+    background-size: cover;
+    width: 45%;
+    margin-top: 10rem;
+    height: 450px;
+    min-width: 300px;
+  }
+  .sideMain {
+    margin: 5%;
+    width: 50%;
+    padding: 60px 0;
+  }
+  .phonesOnFur {
+    width: 100%;
+    margin: 0;
+    height: 512px;
+  }
+  .pinkPortrait {
+    height: 469px;
+  }
+  .left {
+    margin-right: 0;
+  }
+}
